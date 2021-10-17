@@ -2,13 +2,13 @@
 
 Download
 ```
-npm install aws-websocket-client -S
+npm install @rahulcoolranjan/aws-websocket-client -S
 ```
 
 
 ### How to Use
 ```
-import io from './lib/websocket'
+import io from '@rahulcoolranjan/aws-websocket-client'
 const URL = 'wss://{apiId}.execute-api.{region}.amazonaws.com/{stage}' // AWS websocket endpoint
 const socket = new io(URL,{
     debug: true,
